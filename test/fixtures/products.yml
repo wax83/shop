@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  created_at  :datetime         not null
+#  description :text
+#  id          :integer          not null, primary key
+#  name        :string(255)
+#  price       :float
+#  published   :boolean
+#  updated_at  :datetime         not null
+#
+
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
